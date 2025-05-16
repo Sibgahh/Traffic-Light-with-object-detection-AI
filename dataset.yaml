@@ -1,0 +1,18 @@
+# train: C:\Users\ASUS\Documents\tugas\Traffic\dataset\train\images # Path to training images
+# val: C:\Users\ASUS\Documents\tugas\Traffic\dataset\valid\images # Path to validation images
+
+# nc: 4 # Number of classes
+# names: ["mobil", "motor", "truck", "bus"] # Names of classes
+
+train: C:\Users\ASUS\Documents\tugas\Traffic\dataset\train\images # Path to training images
+val: C:\Users\ASUS\Documents\tugas\Traffic\dataset\valid\images # Path to validation images
+test: C:\Users\ASUS\Documents\tugas\Traffic\dataset\train\images # Path to training images
+nc: 4
+names: ['bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: university-of-siena-dls9l
+  project: vehicle-detection-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-siena-dls9l/vehicle-detection-dataset/dataset/2
